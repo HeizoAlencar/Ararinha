@@ -206,10 +206,13 @@ height: auto;
 justify-content: space-around;
 display: flex;
 background-color:#1BBAEB;
+color: white;
 }
 
-#sustendabilidade-section p {
+#sustendabilidade-section p{
+    font-size: 1rem;
     margin: 30px;
+
     }
 
 
