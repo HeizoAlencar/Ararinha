@@ -13,11 +13,11 @@
 @font-face {
 
     font-family:nexa_heavy;
-    src: url(./assets/FONT/Nexa-Heavy.ttf);
+    src: url(assets/FONT/Nexa-Heavy.ttf);
 }
 @font-face {
     font-family:nexa_light;
-    src: url(./assets/FONT/Nexa-ExtraLight.ttf);
+    src: url(assets/FONT/Nexa-ExtraLight.ttf);
 }
 
 
@@ -140,7 +140,7 @@ color: var(--blue);
 
 #parceiros{
     font-family: nexa;
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: #1BBAEB;
 }
@@ -167,15 +167,32 @@ color: var(--blue);
 
 .parceiros-logo{
     max-height: 150px;
-    max-width: 300px;
+    max-width: 470px;
     object-fit: cover;
     object-position: center center;
     cursor: pointer;
 }
 
-#about-pilar1{
-    width: 100%;
+
+
+#sustendabilidade-section{
+width: 100%;
+height: auto;
+justify-content: space-around;
+display: flex;
+background-color:#1BBAEB;
 }
+
+#sustendabilidade-section p {
+    margin: 30px;
+    }
+
+
+    #about-pilar1{
+        width: 60%;
+        height: 60%;
+    }
+    
 
 
 
