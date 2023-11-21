@@ -44,12 +44,13 @@ p{
     display: flex;
     position: absolute;
     width: 100%;
-    height: 10vh;
+    height: auto;
     justify-content: space-around;
     align-items: center;
     color: #fbd22a;
     transition: 0.5s;
     z-index: 5;
+    padding:0.5rem;
 }
 .menu-fixed{
     transition: 0.5s;
@@ -57,11 +58,12 @@ p{
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 10vh;
+    height: auto;
     justify-content: space-around;
     align-items: center;
     color: var(--brown);
     background-color: var(--yellow);
+    padding:0.5rem;
 }
 .menu #arara-banner{
     display: none;
@@ -87,6 +89,7 @@ nav ul li a{
     font-family: 'Nexa', sans-serif;
     font-weight: bold;                                    
     text-decoration: none;
+
 }
 
 nav ul li a:hover {
@@ -102,6 +105,7 @@ color: var(--blue);
 .logo h1{ 
     font-family: 'Nexa', sans-serif;
     font-weight: 800; 
+    font-size: 120%;
 }
 
 .logo img{
@@ -109,8 +113,9 @@ color: var(--blue);
 }
 
 .logo  h1 span{
-    font-size: small;
+ 
     font-family: 'Nexa', sans-serif;
+    font-size: 50%;
 
 }
 
@@ -137,6 +142,7 @@ color: var(--blue);
     font-size: 80px;
     color: var(--brown);
     font-weight: bold;
+    padding: 2rem;
 }
 
 
@@ -147,12 +153,33 @@ color: var(--blue);
     font-family: 'Nexa', sans-serif;
     font-weight: bold; 
     font-size: 60px;
+    padding: 20px;
     color: #fbd22a;
     background-color: #211904;
+    margin: 0px;
    
     
 }
 
+#veiculos-subtitle{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nexa', sans-serif;
+    padding: 20px;
+    color: #fbd22a;
+    background-color: #211904;
+    margin: 0px;
+   
+    
+}
+
+
+.veiculos-bg{
+    width:100%;
+    height: autos;
+    padding: 0px;
+    margin: 0px;
+}
 
 .carrousel-veiculos{
     width: 100%;
@@ -180,12 +207,10 @@ color: var(--blue);
 }
 
 .flexbox-element{
-    
     margin: 10px;
     display: flex;
     width: auto;
     height: auto;
-
     background-color: #fbd22a;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -200,27 +225,93 @@ color: var(--blue);
 
 
 
-#sustendabilidade-section{
-width: 100%;
-height: auto;
-justify-content: space-around;
-display: flex;
-background-color:#1BBAEB;
-color: white;
+#sobre{
+    font-family: 'Nexa', sans-serif;
+    font-weight: bold; 
+    width: auto;
+    height: auto;
+    background-color: #1BBAEB;
 }
 
-#sustendabilidade-section p{
-    font-size: 1rem;
-    margin: 30px;
 
-    }
+#sobre p{
+    padding: 30px;
+    margin:0px;
+    font-family: 'Nexa', sans-serif;
+
+}
+
+#imagem-sobre{
+width: 100%;
+}
+
+.mission-bg{
+    background-color:#1BBAEB;
+    width: 100%;
+
+}
 
 
-    #about-pilar1{
-        width: 60%;
-        height: 60%;
-    }
-    
+.mission-bg h1{
+    font-family: 'Nexa', sans-serif;
+    font-weight: bold; 
+}
 
+.mission-bg p{
+    font-size: 3rem;
+    margin: 0px;
+}
 
+.fale-conosco-bg{
+    font-family: "Nexa", sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: var(--yellow);
+    color: var(--brown);
 
+}
+
+.fale-conosco-bg h1{
+    padding-top: 30px;
+    text-align: start;
+font-weight: bold;
+}
+
+.fale-conosco-bg input{
+display: block;
+margin-bottom: 1rem;
+border: 0px;
+padding: 6px;
+border-radius: 10px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+font-family: "Nexa", sans-serif;
+}
+
+textarea{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    resize: none;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+}
+
+.form-button{
+    display: block;
+    padding-bottom: 30px;
+}
+
+.form-button button{
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px;
+    background-color: var(--blue);
+    color: #211904;
+}
+footer{
+    text-align: center;
+    background-color: #211904;
+    color: var(--yellow);
+    font-family: "Nexa", sans-serif;
+    padding: 30px;
+}
