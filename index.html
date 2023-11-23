@@ -191,7 +191,7 @@
                     <label for="name">Seu Nome</label>
                     <input   type="text" required="required" name="name"  placeholder="Exemplo Silva"  >
                     <label for="email">Email</label>
-                    <input  required="required" type="email"  name="name"  placeholder="exemplo@gmail.com"  >
+                    <input     pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required="required" type="email"  name="name"  placeholder="exemplo@gmail.com"  >
                     <label for="Celular">Telefone</label>
                     <input required="required"  pattern="[0-9]{11}"  type="phone"  name="celular"  placeholder="1100000000"  >
                     <p>Comentario</p>
