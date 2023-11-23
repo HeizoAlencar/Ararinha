@@ -86,7 +86,9 @@ nav ul {
     margin-right: 50px;
 }
 
-
+#comentario{
+    resize: none;
+}
 
 
 nav ul li a{
