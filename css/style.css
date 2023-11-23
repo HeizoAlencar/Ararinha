@@ -82,6 +82,11 @@ nav ul li{
     display: inline-block;
 }
 
+nav ul {
+    margin-right: 50px;
+}
+
+
 
 
 nav ul li a{
